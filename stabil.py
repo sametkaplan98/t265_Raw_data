@@ -61,9 +61,7 @@ try:
         
         # image=np.hstack((nir_lf_image,nir_rg_image)) -> iki goruntu birlesik
         cv2.imshow('Fisheye goruntu', right_image)
-        
-
-        
+           
         key = cv2.waitKey(1)
         if key & 0xFF == ord('q') or key == 27:
             cv2.destroyAllWindows()
