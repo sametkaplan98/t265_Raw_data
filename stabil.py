@@ -65,7 +65,6 @@ try:
         cv2.imshow('Fisheye goruntu', nir_rg_image)       
         
         key = cv2.waitKey(1)
-        # Press esc or 'q' to close the image window
         if key & 0xFF == ord('q') or key == 27:
             cv2.destroyAllWindows()
             break
