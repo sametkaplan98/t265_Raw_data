@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Mar 17 22:59:02 2021
-
-@author: samet
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
 Created on Sun Mar 14 23:54:27 2021
 
 @author: samet
