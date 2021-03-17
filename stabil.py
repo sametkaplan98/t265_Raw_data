@@ -46,9 +46,7 @@ config.enable_stream(rs.stream.fisheye,2)
 config.enable_stream(rs.stream.accel)
 config.enable_stream(rs.stream.gyro)
 profile = pipeline.start(config)
-frame_data = {"left"  : None,
-              "right" : None
-              }
+
 try:
     while True:
         frames = pipeline.wait_for_frames()
